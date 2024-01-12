@@ -1,0 +1,50 @@
+.side_nav {
+    margin-right: 20px;
+}
+
+.side_nav h3 {
+    margin-top: 0;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.side_nav h4 {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.side_nav ul {
+    padding-left: 0;
+}
+
+.side_nav li a {
+    padding-left: 20px;
+    color: #666;
+    font-style: italic;
+}
+
+.side_nav li {
+    margin: 10px 0;
+}
+
+.side_nav h5 {
+    font-style: italic;
+    padding: 10px 20px;
+    background-color: #eee;
+    font-size: 18px;
+    margin: 10px 0;
+}   
+
+.side_nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+.side_nav .active,
+.side_nav a:hover {
+    color: #eeddba;
+}

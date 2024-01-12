@@ -1,0 +1,24 @@
+.table-order {
+  margin-top: 32px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table-order thead {
+  background-color: #f6f9f6;
+  color: rgb(64, 62, 62);
+}
+
+.table-order thead th {
+  padding: 16px 0;
+}
+
+.table-order th {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.table-order td {
+  padding: 0 8px;
+}

@@ -1,0 +1,45 @@
+.trash_bin {
+    width: 20px;
+    height: 20px;
+}
+
+.row td {
+    text-align: center;
+    padding: 0 10px;
+    font-style: italic;
+}
+
+.quantity span {
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px;
+    font-style: normal;
+}
+
+.btn {
+    font-size: 20px;
+    background-color: #fff;
+    border: none;
+    color: #000;
+}
+
+.btn:hover {
+    scale: 1.3;
+    cursor: pointer;
+}
+
+.grey {
+    fill: gray;
+    color: gray;
+}
+
+.qty {
+    width: 30px;
+    margin: 0 4px 0 8px;
+}
+
+.qty::-webkit-outer-spin-button,
+.qty::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

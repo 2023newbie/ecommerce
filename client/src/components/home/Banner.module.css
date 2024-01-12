@@ -1,0 +1,63 @@
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.banner img {
+    min-height: 300px;
+}
+
+.subBanner {
+    top: 50%;
+    padding-left: 5%;
+    max-width: 450px;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.sub-title {
+    color: #999;
+    margin: 10px 0;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.big {
+    font-size: 44px;
+    line-height: 1.1;
+    font-style: italic;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.button {
+    padding: 0;
+    border: none;
+}
+
+.button a {
+    border: none;
+    color: #ccc;
+    font-size: 1.1rem;
+    font-weight: 350;
+    padding: 12px 32px;
+    font-style: italic;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #383838;
+}
+
+.button a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .big {
+        font-size: 36px;
+    }
+    .button a {
+        padding: 8px 16px;
+    }
+}

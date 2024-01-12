@@ -1,0 +1,51 @@
+.categories {
+    margin: 60px 0;
+}
+
+.sub_head {
+    margin: 0;
+    color: #999;
+    text-align: center;
+}
+
+.heading {
+    color: #333;
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu {
+    padding: 0;
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    'iphone   iphone   iphone   mac     mac       mac' 
+    'ipad     ipad     watch    watch   airpods   airpods';
+}
+
+.iphone {
+    grid-area: iphone;
+}
+
+.mac {
+    grid-area: mac;
+}
+
+.ipad {
+    grid-area: ipad;
+}
+
+.watch {
+    grid-area: watch;
+}
+
+.airpods {
+    grid-area: airpods;
+}
+
+.hover:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+    transition:all .3s ease;
+}

@@ -1,0 +1,145 @@
+.box_help {
+    right: 20px;
+    z-index: 10;
+    width: 50px;
+    bottom: 20px;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    font-size: 32px;
+    color: #f8f9fa;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: #495057;
+}
+
+.box_help:hover {
+    cursor: pointer;
+}
+
+.box_help:hover::after {
+    left: -2px;
+    top: -18px;
+    font-size: 14px;
+    color: #343a40;
+    content: 'Support';
+    position: absolute;
+}
+
+.box_support {
+    z-index: 10;
+    right: 80px;
+    bottom: 80px;
+    width: 400px;
+    position: fixed;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box_support > div:first-child {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.box_support > div:first-child span:first-child {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.box_support > div:first-child span:nth-child(2) {
+    padding: 5px;
+    font-size: 12px;
+    color: #212529;
+    background-color: #dee2e6;
+}
+
+.box_support > div:nth-child(2) {
+    height: 260px;
+    padding: 10px 40px;
+    overflow-y: scroll;
+}
+
+.box_support > div:nth-child(2) p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.box_support > div:nth-child(2) p span:nth-child(2) {
+    padding: 10px;
+    font-style: italic;
+    display: inline-block;
+}
+
+.you {
+    text-align: right;
+    position: relative;
+    
+}
+
+.you span:first-child {
+    top: 3px;
+    right: -30px;
+    font-size: 26px;
+    position: absolute;
+}
+
+.you span:nth-child(2) {
+    color: #f1f3f5;
+    background-color: #48b0f7;
+}
+
+.admin {
+    position: relative;
+}
+
+.admin span:first-child {
+    top: 3px;
+    left: -30px;
+    font-size: 26px;
+    position: absolute;
+}
+
+.admin span:nth-child(2) {
+    color: #343a40;
+    background-color: #e9ecef;
+}
+
+.form {
+    display: flex;
+    padding: 20px 20px;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 0 0 15px 15px;
+    border-top: 1px solid #ced4da;
+}
+
+.form input[type=text] {
+    width: 50%;
+    border: none;
+    outline: none;
+}
+
+.form label i {
+    margin: 0 5px;
+    font-size: 24px;
+}
+
+.form span i {
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.form button {
+    border: none;
+    font-size: 20px;
+    color: #48b0f7;
+    background-color:transparent;
+}
+
+.form button:hover {
+    cursor: pointer;
+}

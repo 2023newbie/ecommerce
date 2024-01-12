@@ -1,0 +1,26 @@
+.header {
+    height: 300px;
+    position: relative;
+    background-color: #f6f9f6;
+    text-transform: uppercase;
+}
+
+.big {
+    top: 50%;
+    left: 10%;
+    font-size: 44px;
+    font-style: italic;
+    position: absolute;
+    letter-spacing: 2px;
+    transform: translateY(-50%);
+}
+
+.small {
+    top: 50%;
+    right: 10%;
+    color: silver;
+    font-size: 20px;
+    font-style: italic;
+    position: absolute;
+    transform: translateY(-50%);
+}

@@ -1,0 +1,61 @@
+.container {
+    background-image: url('http://localhost:5000/images/banner1.jpg');
+    height: 100vh;
+    background-position: center;
+    position: relative;
+}
+
+.wrap_form {
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    display: inline-block;
+    padding: 36px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.wrap_form h1 {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+.wrap_form input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.wrap_form .btn {
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+    padding: 16px 0;
+    border: none;
+    background-color: #494949;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.wrap_form p {
+    color: #666;
+    font-style: italic;
+    text-align: center;
+}
+
+p.red {
+    color: #f00;
+    text-align: left;
+}

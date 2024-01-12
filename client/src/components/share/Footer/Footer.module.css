@@ -1,0 +1,27 @@
+.col {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.col header {
+    font-size: 1.11rem;
+    margin-bottom: 0.5rem;
+    font-weight: 350;
+    word-spacing: 3px;
+}
+
+.col ul {
+    padding: 0;
+}
+
+.col a {
+    color: #999;
+    text-decoration: none;
+    font-size: 0.9rem;
+    
+}
+
+.col a:hover {
+    color: #ccc;
+}
